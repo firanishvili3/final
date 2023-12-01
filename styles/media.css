@@ -1,0 +1,110 @@
+@media all and ( min-width: 375px) { 
+    .header-top .nav-5{
+        display: flex;
+        column-gap: 40px;
+    }
+    
+    
+    footer .logo{
+        display: none;
+        
+        
+    }
+    footer{
+        height: 210px;
+        
+    }
+    .about .about-tittle{
+        font-size: 4.8rem;
+    }
+    .div-1 .estetic{
+        padding: 20px;
+        
+
+    }
+}
+    
+
+
+
+
+@media all and ( min-width: 1024px) {
+    .burger-button{
+        display: none;
+    }
+    .articles .articles-img img:last-child{
+        display: block;
+    }
+    .header-wrapper{
+        height: 754px;
+        background-image: url(../assets/immages/background.webp);
+    }
+    nav{
+        display: block;
+        
+      
+        
+    }
+    
+
+
+
+    .nav-list {
+        display: flex;
+        column-gap: 60px;
+    }
+    .nav-link{
+        
+        font-size: 50px;
+    }
+
+
+    footer{
+        justify-content: space-between;
+    }
+    footer .logo{
+        display: block;
+    }
+    footer{
+        padding: 0 45px;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+    }
+    .about .cont{
+        max-width: 350px;
+        margin-left: 50px;
+    }
+    .articles .articles-img{
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 50px;
+    }
+       
+
+    
+    }
+   
+ 
+    
+    
+    
+
+@media all and ( min-width: 1440px) {
+    .header-wrapper{
+        background-image: url(../assets/immages/background.webp);
+    }
+    footer{
+        padding: 0 90px;
+    }
+  
+        
+
+}
+
+
+
+
+
+
